@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+
+  <PropertyGroup>
+    <AssemblyName>Passenger.Tests</AssemblyName>
+    <PackageId>Passenger.Tests</PackageId>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Passenger.Infrastructure\Passenger.Infrastructure.csproj" />
+    <ProjectReference Include="..\Passenger.Core\Passenger.Core.csproj" />
+  </ItemGroup>
+
+</Project>
