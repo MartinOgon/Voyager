@@ -57,5 +57,8 @@ namespace Passenger.Core.Domain
             }
             Brand = brand;
         }
+
+        public static Vehicle Create(string brand, string name, int seats)
+            => new Vehicle(brand, name, seats);
     }
 }
